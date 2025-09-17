@@ -1,0 +1,8 @@
+2025-09-17 14:07:57, MOVE, v:1, k:toalha, mode:DOWN
+2025-09-17 14:08:01, MOVE, v:1, k:toalha, mode:PICK
+2025-09-17 14:10:56, EXEC, v:1, k:toalha, mode:LOCK, rate:100, size:0
+2025-09-17 14:10:58, EXEC, v:1, k:toalha, mode:LOCK, rate:100
+2025-09-17 14:11:09, MOVE, v:1, k:toalha, mode:PICK
+2025-09-17 14:11:22, MOVE, v:1, k:toalha, mode:PICK
+2025-09-17 14:45:57, EXEC, v:1, k:toalha, mode:LOCK, rate:0, size:20
+2025-09-17 14:47:51, EXEC, v:1, k:toalha, mode:FREE, size:20
