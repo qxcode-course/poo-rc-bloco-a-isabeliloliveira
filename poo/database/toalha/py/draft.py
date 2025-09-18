@@ -4,9 +4,9 @@ class Towel: #classe
         self.size: str = size
         self.wetness: int = 0
 
-def __str__(self) -> int
+# def __str__(self) -> int
 
-#referencias
+#referenciasgit
 print("qual a cor e o tamanho da sua toalha?")
 color= input("")
 tamanho= input("")
