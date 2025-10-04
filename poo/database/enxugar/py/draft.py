@@ -21,10 +21,17 @@ class Towel:
         if self.size == "G":
             return 30
         return 0 # default return
-
+    
+    
     def __str__(self) -> str: # toString
         return f"Cor: {self.color}, Tamanho: {self.size}, Unidade: {self.wetness}"
-
+    
+    def isDry(self):
+        if self.wetness == 0 :
+            return True
+        else :
+            return False
+        
 def main(): 
     towel: Towel = Towel("", "") # 2: criar um obj com qq valor inicial
     while True: # 3: loop infinito
