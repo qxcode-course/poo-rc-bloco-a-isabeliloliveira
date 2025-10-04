@@ -24,7 +24,7 @@ class Towel:
     
     
     def __str__(self) -> str: # toString
-        return f"Cor: {self.color}, Tamanho: {self.size}, Unidade: {self.wetness}"
+        return f"Cor: {self.color}, Tamanho: {self.size}, Umidade: {self.wetness}"
     
     def isDry(self):
         if self.wetness == 0 :
