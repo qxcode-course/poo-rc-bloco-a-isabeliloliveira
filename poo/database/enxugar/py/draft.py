@@ -38,7 +38,7 @@ def main():
 
         line: str = input() # 4: perguntar ao usuario
         print("$" + line)
-        args: list[str] = line.split(" ") # 5: separar argumentos
+        args: list[] = line.split() # 5: separar argumentos
 
         if args[0] == "end":
             break
