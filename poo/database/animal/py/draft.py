@@ -1,8 +1,8 @@
 class Animal:
     def __init__(self, species: str, sound: str): # construtor
-        self.species= str = species # atributos
+        self.species= species # atributos
         self.age: int = 0
-        self.sound = str = sound
+        self.sound = sound
         
     def __str__ (self) -> str:
         return f"{self.species}:{self.age}:{self.sound}"
