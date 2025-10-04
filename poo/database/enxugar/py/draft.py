@@ -47,15 +47,15 @@ def main():
             print("sim" if towel.isDry() else "nao")
             
         elif args[0] == "torcer":
-            
-        elif args[0] == "new": # color size
+            towel.wringOut()
+        elif args[0] == "criar": # color size
             color: str = args[1]
             size: str = args[2]
             towel = Towel(color, size)
         elif args[0] == "dry":
             amount: int = int(args[1])
             towel.dry(amount)
-        elif args[0] == "show":
+        elif args[0] == "mostrar":
             print(towel)
         else: # 7: erro
             print("fail: comando não encontrado")
