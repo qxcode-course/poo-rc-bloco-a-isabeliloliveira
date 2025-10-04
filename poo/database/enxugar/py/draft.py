@@ -43,15 +43,17 @@ def main():
         if args[0] == "end":
             break
         
+        elif args[0] == "criar": # color size
+            color: str = args[1]
+            size: str = args[2]
+            towel = Towel(color, size)
+            
         elif args[0] == "seca":
             print("sim" if towel.isDry() else "nao")
             
         elif args[0] == "torcer":
             towel.wringOut()
-        elif args[0] == "criar": # color size
-            color: str = args[1]
-            size: str = args[2]
-            towel = Towel(color, size)
+        
         elif args[0] == "dry":
             amount: int = int(args[1])
             towel.dry(amount)
