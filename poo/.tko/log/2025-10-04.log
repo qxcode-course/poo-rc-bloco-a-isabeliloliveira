@@ -1,2 +1,6 @@
 2025-10-04 02:52:26, MOVE, v:1, k:enxugar, mode:PICK
 2025-10-04 02:52:29, EXEC, v:1, k:enxugar, mode:FULL, rate:0
+2025-10-04 03:32:20, EXEC, v:1, k:enxugar, mode:FULL, rate:0
+2025-10-04 03:32:29, MOVE, v:1, k:enxugar, mode:BACK
+2025-10-04 03:32:35, MOVE, v:1, k:animal, mode:PICK
+2025-10-04 03:32:37, EXEC, v:1, k:animal, mode:FULL, rate:75, size:52
