@@ -20,7 +20,7 @@ class Animal:
             return "RIP"
         
         else:
-            return f"{self.age}"
+            return f"{self.sound}"
 
 
 def main():
