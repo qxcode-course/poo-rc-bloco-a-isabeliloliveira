@@ -47,6 +47,8 @@ def main():
             color: str = args[1]
             size: str = args[2]
             towel = Towel(color, size)
+        elif args[0] == "mostrar":
+            print(towel)
             
         elif args[0] == "seca":
             print("sim" if towel.isDry() else "nao")
@@ -57,8 +59,7 @@ def main():
         elif args[0] == "dry":
             amount: int = int(args[1])
             towel.dry(amount)
-        elif args[0] == "mostrar":
-            print(towel)
+        
         else: # 7: erro
             print("fail: comando não encontrado")
 
