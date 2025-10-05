@@ -8,7 +8,7 @@ class Towel:
         self.wetness += amount
         if self.wetness >= self.isMaxWetness():
             self.wetness = self.isMaxWetness()
-            print("toalha saturada, ensopada, pingando")
+            print("toalha encharcada")
 
     def wringOut(self):
         self.wetness = 0
@@ -56,7 +56,7 @@ def main():
         elif args[0] == "torcer":
             towel.wringOut()
         
-        elif args[0] == "dry":
+        elif args[0] == "enxugar":
             amount: int = int(args[1])
             towel.dry(amount)
         
