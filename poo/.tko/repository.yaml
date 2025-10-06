@@ -11,6 +11,7 @@ expanded:
 - bloco_b-modificadores-de-acesso
 tasks:
   animal: '{rate:100}'
+  carro: '{rate:100}'
   enxugar: '{rate:100}'
 flags:
   quests: 0
@@ -18,4 +19,4 @@ flags:
   tasks: 1
   graph: 0
   xray: 0
-index: carro
+index: calculadora
