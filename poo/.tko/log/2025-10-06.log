@@ -31,3 +31,7 @@
 2025-10-06 02:10:07, EXEC, v:1, k:calculadora, mode:FULL, rate:9, size:68
 2025-10-06 02:13:50, EXEC, v:1, k:calculadora, mode:FULL, rate:9, size:68
 2025-10-06 02:14:13, EXEC, v:1, k:calculadora, mode:FULL, rate:100, size:70
+2025-10-06 02:22:48, MOVE, v:1, k:calculadora, mode:BACK
+2025-10-06 02:22:54, MOVE, v:1, k:toalha, mode:PICK
+2025-10-06 02:22:55, EXEC, v:1, k:toalha, mode:LOCK, rate:0, size:57
+2025-10-06 02:24:18, MOVE, v:1, k:toalha, mode:BACK
