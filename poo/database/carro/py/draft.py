@@ -1,15 +1,20 @@
 class Carro:
-    def __init__(self, pass: int):
-        self.pass: int = pass
+    def __init__(self, passag: int):
+        self.passag: int = passag
         self.passMax: int = 2
         self.gasMax: int = 100
         self.gas: int = 0
         self.km: int = 0
     
     def __str__(self) -> str:
-        return f"pass: {self.pass}, gas: {self.gas}, km {self.km}"
+        return f"pass: {self.passag}, gas: {self.gas}, km {self.km}"
     
     
+    def enter (self):
+        if self.passag >= self.passMax:
+            print("fail: limite de pessoas atingido")
+        else:
+            self.passag+=1
     
     
     

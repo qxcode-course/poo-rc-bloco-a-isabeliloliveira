@@ -8,9 +8,11 @@ class Towel:
         self.wetness += amount
         if self.wetness >= self.isMaxWetness():
             self.wetness = self.isMaxWetness()
-            print("A toalha está úmida")
+            print("toalha encharcada")
 
     def wringOut(self):
+        self.wetness = 0
+        
     
     def isMaxWetness(self) -> int:
         if self.size == "P": # early return
@@ -24,6 +26,11 @@ class Towel:
     def __str__(self) -> str: # toString
         return f"Color:{self.color}, Size:{self.size}, Wet:{self.wetness}"
     
+    def isDry(self):
+        if self.wetness == 0 :
+            return True
+        else :
+            return False    
 
 
 def main():
@@ -47,8 +54,4 @@ def main():
         else:
             print("fail: comando não encontrado")
             
-            
-    # print(towel1)
-    # towel1.dry(5)
-    # print(towel1)
 main()

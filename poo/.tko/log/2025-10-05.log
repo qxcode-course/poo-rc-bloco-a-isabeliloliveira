@@ -16,3 +16,7 @@
 2025-10-05 17:16:09, MOVE, v:1, k:carro, mode:PICK
 2025-10-05 17:16:24, EXEC, v:1, k:carro, mode:FREE, size:0
 2025-10-05 23:41:43, MOVE, v:1, k:carro, mode:PICK
+2025-10-05 23:55:10, MOVE, v:1, k:carro, mode:BACK
+2025-10-05 23:55:13, MOVE, v:1, k:toalha, mode:PICK
+2025-10-05 23:55:19, EXEC, v:1, k:toalha, mode:LOCK, rate:0, size:54
+2025-10-05 23:56:50, EXEC, v:1, k:toalha, mode:LOCK, rate:0, size:54

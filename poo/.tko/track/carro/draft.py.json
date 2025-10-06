@@ -2,8 +2,13 @@
     "patches": [
         {
             "label": "2025-10-05_17-16-24",
-            "content": "",
+            "content": "@@ -1,947 +0,0 @@\n-class Carro:%0A    def __init__(self, pass: int):%0A        self.pass: int = pass%0A        self.passMax: int = 2%0A        self.gasMax: int = 100%0A        self.gas: int = 0%0A        self.km: int = 0%0A    %0A    def __str__(self) -%3E str:%0A        return f%22pass: %7Bself.pass%7D, gas: %7Bself.gas%7D, km %7Bself.km%7D%22%0A    %0A    %0A    %0A    %0A    %0A    %0A    %0A    %0A    %0A    %0A    %0Adef main():%0A    carro = Carro(0)%0A    while True:%0A        line: str = input()%0A        print(f%22$%22 + line)%0A        args: list%5Bstr%5D = line.split(%22 %22)%0A%0A        if args%5B0%5D == %22show%22:%0A            print(carro)%0A%0A        elif args%5B0%5D == %22enter%22:%0A            carro.enter()%0A%0A        elif args%5B0%5D == %22leave%22:%0A            carro.leave()%0A        elif args%5B0%5D == %22end%22:%0A            break%0A%0A        elif args%5B0%5D == %22fuel%22:%0A            increment = int(args%5B1%5D)%0A            carro.fuel(increment)%0A%0A        elif args%5B0%5D == %22drive%22:%0A            increment = int(args%5B1%5D)%0A            carro.drive(increment)%0A            %0Amain()\n",
             "lines": "0"
+        },
+        {
+            "label": "2025-10-06_00-23-07",
+            "content": "class Carro:\n    def __init__(self, pass: int):\n        self.pass: int = pass\n        self.passMax: int = 2\n        self.gasMax: int = 100\n        self.gas: int = 0\n        self.km: int = 0\n    \n    def __str__(self) -> str:\n        return f\"pass: {self.pass}, gas: {self.gas}, km {self.km}\"\n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \ndef main():\n    carro = Carro(0)\n    while True:\n        line: str = input()\n        print(f\"$\" + line)\n        args: list[str] = line.split(\" \")\n\n        if args[0] == \"show\":\n            print(carro)\n\n        elif args[0] == \"enter\":\n            carro.enter()\n\n        elif args[0] == \"leave\":\n            carro.leave()\n        elif args[0] == \"end\":\n            break\n\n        elif args[0] == \"fuel\":\n            increment = int(args[1])\n            carro.fuel(increment)\n\n        elif args[0] == \"drive\":\n            increment = int(args[1])\n            carro.drive(increment)\n            \nmain()",
+            "lines": "48"
         }
     ]
 }
